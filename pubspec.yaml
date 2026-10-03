@@ -1,0 +1,30 @@
+name: wizscroll
+description: A calm, vertically-scrollable educational quote card app — an antidote to doomscrolling.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.13.1
+  cloud_firestore: ^5.6.9
+
+  # Fonts & UI
+  google_fonts: ^6.2.1
+
+  # Local persistence
+  shared_preferences: ^2.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
